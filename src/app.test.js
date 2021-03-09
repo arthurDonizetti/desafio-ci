@@ -1,7 +1,7 @@
 const { div, mult, sub, sum } = require("./app")
 
 test("Add 1 and 3 equals 4", function () {
-  expect(add(1, 3)).toBe(4)
+  expect(sum(1, 3)).toBe(4)
 })
 
 test("Sub 5 of 10 equals 5", function () {
